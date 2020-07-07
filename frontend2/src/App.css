@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  font-size: 3em;
+  padding: 10% 20% 0;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.joke-display {
+  margin-bottom: 2em;
+}
+
+.form {
+  background-color: #1c1e24;
+  padding: 1em 1em 0.5em;
+  border-radius: 10px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  color: white !important;
+}
+
+@media (max-width: 800px) {
+  .App-header {
+    padding: 10% 5% 0;
+    font-size: 2.2em;
+  }
+}
